@@ -17,7 +17,7 @@ if (valor1 === valor2) {
     }
 
     // Calcula e exibe a soma dos valores
-    const sum = valor1 + valor2;
-    console.log(`A soma dos valores é: ${sum}.`);
-    alert(`A soma dos valores é: ${sum}.`);
+    var soma = valor1 + valor2;
+    console.log("A soma dos valores é:" + soma);
+    alert("A soma dos valores é:" + soma);
 }
